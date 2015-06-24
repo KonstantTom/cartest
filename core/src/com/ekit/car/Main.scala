@@ -219,14 +219,14 @@ class Main extends ApplicationAdapter {
       asInstanceOf[Double]).asInstanceOf[Float]
 
     //Draw world
-    /*batch begin ()
+    batch begin ()
 
     iroad draw (batch, 1)
     icar draw (batch, 1)
     iwheel1 draw (batch, 1)
     iwheel2 draw (batch, 1)
 
-    batch end ()*/
+    batch end ()
 
     //Draw world with debug renderer
     renderer render (world, camera.combined)
